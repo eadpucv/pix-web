@@ -18,7 +18,7 @@ export default function Card(props) {
     <section className={getCardClasses()}>
       <div className={`container`}>
         <div className={`row align-items-center`}>
-          <div className={`col-md-6`}>
+          <div className={`col-md-6 card-content`}>
             {props.children}
           </div>
           <div className={`col-md-6`}>

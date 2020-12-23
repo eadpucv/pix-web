@@ -26,7 +26,7 @@ export default function Home() {
             PiX es un lenguaje visual que se utiliza para modelar las interacciones en proyectos digitales e incorpora la secuencia de uso como modulación dentro
              de su propuesta. La secuencia de las acciones define y permite  visualizar los patrones de interacción entre el usuario y el sistema, explicitando y esquematizando procesos complejos. 
           </p>
-          <Button type="dark" to={`/que-es`}>Conoce Más</Button>
+          <Button type="dark" size="lg" to={`/que-es`}>Conoce más</Button>
         </Card>
         <section className="content">
           <div className="container">
