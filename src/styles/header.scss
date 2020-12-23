@@ -1,0 +1,35 @@
+.home {
+  .main-header {
+    .brand {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.2rem 0 6.6rem;
+  .brand {
+    width: 8.5vw;
+    img {
+      width: 100%;
+    }
+  }
+  .main-navigation {
+    .nav {
+      .nav-item {
+        .nav-link {
+          color: $black;
+          text-transform: uppercase;
+          font-size: 1.2rem;
+          border-bottom: 2px solid transparent;
+          &.active, &:hover {
+            border-bottom: 2px solid $color-orange;
+          }
+        }
+      }
+    }
+  }
+}

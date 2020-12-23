@@ -1,0 +1,14 @@
+@mixin background-color-flavors {
+  &.purple {
+    background-color: $color-purple;
+  }
+  &.light-gray {
+    background-color: $color-light-gray;
+  }
+  &.orange {
+    background-color: $color-orange;
+  }
+  &.turquoise {
+    background-color: $color-turquoise;
+  }
+}

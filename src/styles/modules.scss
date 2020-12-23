@@ -1,0 +1,56 @@
+.hero {
+  padding: $space-bigger 0 $space-xl 0;
+  a {
+    img {
+      margin: auto;
+    }
+  }
+   p {
+     width: 90%;
+     margin: 1rem auto 3rem auto;
+     font-size: 3rem;
+   }
+}
+
+.card {
+  padding: $space-xl 0 $space-bigger 0;
+  color: $color-pure-black;
+  @include background-color-flavors;
+  .btn-dark {
+    background-color: $color-pure-black;
+    color: $white;
+  }
+  .image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.element-container {
+  padding: $space-xl 0 $space-bigger 0;
+  @include background-color-flavors;
+}
+
+.content {
+  padding: $space-xl 0;
+}
+.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  .profile {
+    margin-right: 1rem;
+  }
+}
+.image {
+  &.profile {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}

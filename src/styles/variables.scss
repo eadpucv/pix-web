@@ -1,0 +1,19 @@
+$color-purple: #5B378D;
+$color-orange: #D83F20;
+$color-turquoise: #379DBD;
+$color-light-gray: #E5E5E5;
+$color-darker-gray: #303030;
+$color-pure-black: #000;
+
+$theme-colors: (
+  "primary": $color-orange,
+  "secondary": $color-purple
+);
+$link-color: $color-orange;
+//FONTS
+$font-family-sans-serif: 'Lato', sans-serif; 
+
+//Spacing
+$space-xl: 6.25rem;
+$space-bigger: 4rem;
+$space-big: 3rem;

@@ -1,0 +1,15 @@
+.main-footer {
+  padding: $space-bigger 0 $space-big 0;
+  background-color: $color-darker-gray;
+  color: $white;
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: $white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
