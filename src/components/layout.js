@@ -9,8 +9,9 @@ import Container from "../components/content/container"
 import Button from "../components/elements/button"
 import Image from "../components/elements/image"
 import Contributors from "../components/content/contributors"
+import {Accordion, AccordionSection} from "../components/content/accordion"
 
-const shortcodes = { Header, Footer, Hero, Card, Button, Container, Contributors, Image }
+const shortcodes = { Header, Footer, Hero, Card, Button, Container, Contributors, Image, Accordion, AccordionSection }
 export default function Layout({ location, children }) {
   return (
     <MDXProvider components={shortcodes}>

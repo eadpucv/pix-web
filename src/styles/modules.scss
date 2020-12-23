@@ -65,6 +65,31 @@
     }
   }
 }
+.accordion-section {
+  .accordion-item {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    .accordion-header {
+      display: block;
+      width: 100%;
+      padding: .5rem 2rem;
+      border-radius: 1rem;
+      background-color: $color-light-gray;
+      border: none;
+      text-align: left;
+      box-shadow: 0px 4px 4px rgba($color-pure-black, .25);
+      &:hover {
+        background-color: lighten($color-light-gray, 5);
+      }
+    }
+    .accordion-content {
+      margin-top: 1rem;
+      padding: 0 1rem;
+      overflow: hidden;
+      transition: max-height 0.6s ease;
+    }
+  }
+}
 .recursos {
   .main-content {
     .card {
