@@ -5,6 +5,12 @@ $color-light-gray: #E5E5E5;
 $color-darker-gray: #303030;
 $color-pure-black: #000;
 
+$local-colors: (
+  "purple": $color-purple,
+  "orange": $color-orange,
+  "turquoise": $color-turquoise
+);
+
 $theme-colors: (
   "primary": $color-orange,
   "secondary": $color-purple
@@ -17,3 +23,18 @@ $font-family-sans-serif: 'Lato', sans-serif;
 $space-xl: 6.25rem;
 $space-bigger: 4rem;
 $space-big: 3rem;
+
+@mixin color-classes($color-name, $brand-color) {
+  .has-background-#{$color-name} {
+    background-color: $brand-color;
+  }
+
+  .has-text-#{$color-name}, // Bulma convention
+  .has-color-#{$color-name} {
+    color: $brand-color;
+  }
+}
+
+@each $color-name, $brand-color in $local-colors {
+  @include color-classes($color-name, $brand-color);
+}
