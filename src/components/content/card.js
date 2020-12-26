@@ -7,6 +7,9 @@ export default function Card(props) {
     if (props.color !== undefined) {
       classes.push(props.color);
     }
+    if (props.name !== undefined) {
+      classes.push(props.name);
+    }
     return classes.join(' ');
   }
   const getCardImage = () => {

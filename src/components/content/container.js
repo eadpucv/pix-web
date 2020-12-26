@@ -6,6 +6,9 @@ export default function Container(props) {
     if (props.color !== undefined) {
       classes.push(props.color);
     }
+    if (props.type !== undefined) {
+      classes.push(props.type);
+    }
     return classes.join(' ');
   }
   return(

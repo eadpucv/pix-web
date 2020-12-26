@@ -19,10 +19,10 @@ export default function Footer() {
           <div className="col-md-3">
             <ul className={`nav flex-column`}>
               <li className="nav-item">
-                <Link to="/faq" className="nav-link">Preguntas frecuentes</Link>
+                <Link to="/faq" className="nav-link" activeClassName="active">Preguntas frecuentes</Link>
               </li>
               <li className="nav-item">
-                <Link to="/contactanos" className="nav-link">Contáctanos</Link>
+                <Link to="/nosotros" activeClassName="active" className="nav-link">Contáctanos</Link>
               </li>
             </ul>
           </div>

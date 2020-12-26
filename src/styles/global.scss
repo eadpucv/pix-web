@@ -5,6 +5,12 @@
   .container {
     h1 {
       font-size: 4rem;
+      font-weight: 700;
+    }
+    ol, ul {
+      li {
+        margin-bottom: 2rem;
+      }
     }
   }
 }

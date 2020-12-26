@@ -36,10 +36,22 @@
       height: auto;
     }
   }
+  &.quienes {
+    .image {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        width: 67%;
+      }
+    }
+  }
 }
 .element-container {
   padding: $space-xl 0 $space-bigger 0;
   @include background-color-flavors;
+  &.title {
+    padding: 1rem 0 3rem 0;
+  }
 }
 
 .content {
@@ -66,13 +78,17 @@
   }
 }
 .accordion-section {
+  margin-bottom: 4.6rem;
+  h5 {
+    font-size: 2.3rem;
+  }
   .accordion-item {
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
     .accordion-header {
       display: block;
       width: 100%;
-      padding: .5rem 2rem;
+      padding: 1.1rem 2rem;
       border-radius: 1rem;
       background-color: $color-light-gray;
       border: none;
