@@ -32,4 +32,10 @@
       }
     }
   }
+  @include media-breakpoint-only(xs) {
+    padding: 1rem 2rem;
+    .brand {
+      display: none;
+    }
+  }
 }
