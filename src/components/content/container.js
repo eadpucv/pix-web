@@ -1,21 +1,22 @@
 import React from "react"
 
 export default function Container(props) {
-  const getContainerClasses = ()=>{
-    let classes = ['element-container'];
+  const getContainerClasses = () => {
+    let classes = ["element-container"]
     if (props.color !== undefined) {
-      classes.push(props.color);
+      classes.push(props.color)
     }
     if (props.type !== undefined) {
-      classes.push(props.type);
+      classes.push(props.type)
     }
-    return classes.join(' ');
+    if (props.name !== undefined) {
+      classes.push(props.name)
+    }
+    return classes.join(" ")
   }
-  return(
+  return (
     <div className={getContainerClasses()}>
-      <div className="container">
-        {props.children}
-      </div>
+      <div className="container">{props.children}</div>
     </div>
   )
 }

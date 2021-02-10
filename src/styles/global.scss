@@ -1,16 +1,11 @@
 .btn {
-  box-shadow: 0 4px 4px rgba($black, .25);
+  box-shadow: 0 4px 4px rgba($black, 0.25);
 }
 .main-content {
   .container {
     h1 {
       font-size: 4rem;
       font-weight: 700;
-    }
-    ol, ul {
-      li {
-        margin-bottom: 2rem;
-      }
     }
   }
 }
