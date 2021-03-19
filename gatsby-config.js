@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/pix-web",
   plugins: [
     {
       resolve: 'gatsby-plugin-sass',
