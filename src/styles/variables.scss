@@ -1,23 +1,23 @@
-$color-purple: #5B378D;
-$color-orange: #D83F20;
-$color-turquoise: #379DBD;
-$color-light-gray: #E5E5E5;
+$color-purple: #6e5691;
+$color-orange: #ca5139;
+$color-turquoise: #379dbd;
+$color-light-gray: #e5e5e5;
 $color-darker-gray: #303030;
 $color-pure-black: #000;
 
 $local-colors: (
   "purple": $color-purple,
   "orange": $color-orange,
-  "turquoise": $color-turquoise
+  "turquoise": $color-turquoise,
 );
 
 $theme-colors: (
   "primary": $color-orange,
-  "secondary": $color-purple
+  "secondary": $color-purple,
 );
 $link-color: $color-orange;
 //FONTS
-$font-family-sans-serif: 'Lato', sans-serif; 
+$font-family-sans-serif: "Lato", sans-serif;
 
 //Spacing
 $space-xl: 6.25rem;
