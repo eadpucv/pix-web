@@ -113,7 +113,7 @@
 .contributors {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  padding: 3rem 0;
   .profile {
     margin-right: 1rem;
   }
@@ -179,19 +179,24 @@
 .nosotros {
   .main-content {
     .container {
-      .row {
-        div:first-child {
-          h3 {
-            font-size: 3rem;
-            font-weight: 700;
-          }
-          font-size: 1.5rem;
-          @include media-breakpoint-only(xs) {
-            h3 {
-              font-size: 2rem;
-            }
-          }
+      h2 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      p {
+        color: $color-darker-gray;
+        font-size: 1.5rem;
+        &.extra-space {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
         }
+      }
+      @include media-breakpoint-only(xs) {
+        h3 {
+          font-size: 2rem;
+        }
+      }
+      .row {
         div:last-child {
           padding-left: 6.6rem;
           .image {
@@ -203,6 +208,44 @@
             padding-left: 1rem;
           }
         }
+      }
+    }
+    .projects {
+      ul {
+        width: 60%;
+        margin-top: 3rem;
+        li {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+          a {
+            display: block;
+            margin-top: 1rem;
+            color: $color-purple;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        @include media-breakpoint-only(xs) {
+          width: 100%;
+        }
+      }
+    }
+    .about-us {
+      h4 {
+        margin-top: 2rem;
+        font-size: 2.25rem;
+      }
+    }
+    .contact-us {
+      h4 {
+        font-size: 2.25rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
       }
     }
   }
