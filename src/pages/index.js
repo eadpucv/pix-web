@@ -20,7 +20,7 @@ export default function Home() {
           logo={true}
           hasButton={true}
           buttonText={`Comienza una partitura`}
-          buttonUrl={"/app"}
+          buttonUrl={"https://eadpucv.github.io/pix/pages/app/"}
         >
           El lenguaje diseñado para definir y modelar la experiencia del usuario
           dentro de los servicios digitales
@@ -51,9 +51,9 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="content">
+      <section className="content pix-app">
         <div className="container">
-          <h2>Elementos de PiX</h2>
+          <iframe src="http://eadpucv.github.io/pix/pages/app-embed/#!/import/eyJ0aXRsZSI6IkVsZW1lbnRvcyBkZSBQaVgiLCJsYXlvdXQiOiJpcCIsImRlc2NyaXB0aW9uIjoiIiwic2NvcmVzIjpbW3sic3RlcF90aXRsZSI6IiIsInVzZXIiOiJwaXgtdGhpbmsgUXVpZXJvIHByb2JhciBsYSBhcGxpY2FjacOzbiBQaVhcbiIsImRpYWxvZ3VlIjoicGl4LXBhZ2UgXG5WYW1vcyBhIG1pcmFyIGxhIHDDoWdpbmEgd2ViIGRlIFBpWCIsInN5c3RlbSI6InBpeC1kYXRhYmFzZSBcbkV4dHJhZSBsYSBww6FnaW5hIHdlYiIsIm5vdGUiOiIifSx7InN0ZXBfdGl0bGUiOiIiLCJ1c2VyIjoiICIsImRpYWxvZ3VlIjoicGl4LWJ1dHRvbiBcbkNsaWMgZW4gY29taWVuemEgdW5hIHBhcnRpdHVyYSIsInN5c3RlbSI6IiAiLCJub3RlIjoiIn0seyJzdGVwX3RpdGxlIjoiIiwidXNlciI6InBpeC1zbWlsaW5nIFxuQXF1w60gcHVlZG8gdHJhYmFqYXIiLCJkaWFsb2d1ZSI6InBpeC1pbnB1dCBcbk5vbWJyYSB5IGRlc2NyaWJlIGxhIHBhcnRpdHVyYSIsInN5c3RlbSI6IiAiLCJub3RlIjoiUHVlZGVzIGNyZWFyIGRpdmlzaW9uZXMgcXVlIGRlZmluYW4gc2VnbWVudG9zIGVuIGxhIGludGVyYWNjacOzbiBxdWUgZGlzZcOxZXMifSx7InN0ZXBfdGl0bGUiOiIiLCJ1c2VyIjoicGl4LXN1cnByaXNlZCBcbsKhSW5jcmVpYmxlISIsImRpYWxvZ3VlIjoicGl4LXNlYXJjaCBcbkNvbXBsZXRhIGJ1c2NhbmRvIHBpY3RvZ3JhbWFzIiwic3lzdGVtIjoicGl4LXVwZGF0ZSBcblRyYW5zZm9ybWEgbGFzIGFjY2lvbmVzIGluZ3Jlc2FkYXMiLCJub3RlIjoiIn0seyJzdGVwX3RpdGxlIjoiIiwidXNlciI6InBpeC10aGluayBcblF1aWVybyBndWFyZGFyIG1pIHRyYWJham8iLCJkaWFsb2d1ZSI6InBpeC1kb3duIFxuRGVzY2FyZ2EgcGFydGl0dXJhIGVuIHBkZiIsInN5c3RlbSI6InBpeC1wcm9jZXNzIFxuR2VuZXJhIHkgZGVzY2FyZ2EgZWwgcGRmIiwibm90ZSI6IiJ9LHsic3RlcF90aXRsZSI6IiIsInVzZXIiOiIgIiwiZGlhbG9ndWUiOiIgIiwic3lzdGVtIjoiICIsIm5vdGUiOiIifV1dfQ==" width="100%" height="auto" />
         </div>
       </section>
       <Footer />

@@ -109,6 +109,9 @@
 
 .content {
   padding: $space-xl 0;
+  iframe {
+    min-height: 33rem;
+  }
 }
 .contributors {
   display: flex;
