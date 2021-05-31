@@ -76,13 +76,15 @@
     }
   }
   @include media-breakpoint-only(xs) {
-    text-align: center;
     .card-content {
       padding: 1rem;
       margin-bottom: 1.5rem;
       .card-title {
         font-size: 2.5rem;
       }
+    }
+    .image {
+      text-align: center;
     }
     &.quienes {
       .image {
