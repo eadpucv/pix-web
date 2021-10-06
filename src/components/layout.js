@@ -17,7 +17,7 @@ export default function Layout({ location, children }) {
     <MDXProvider components={shortcodes}>
       <Helmet
         bodyAttributes={{
-          class: location.pathname.replace(/\//g,'')
+          class: location.pathname.replace(/\//g,'').replace('pix-web','')
         }}
       />
       <Header />
