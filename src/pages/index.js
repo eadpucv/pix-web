@@ -35,7 +35,7 @@ export default function Home() {
             usuario y el sistema, explicitando y esquematizando procesos
             complejos.
           </p>
-          <Button type="dark" size="lg" to={`/que-es`}>
+          <Button type="dark" size="lg" to={`/que-es/`}>
             Conoce más
           </Button>
         </Card>
