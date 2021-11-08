@@ -10,6 +10,9 @@
     margin: 1rem auto 3rem auto;
     font-size: 3rem;
   }
+  .btn {
+    padding: 1rem;
+  }
   @include media-breakpoint-only(xs) {
     a {
       img {
@@ -26,6 +29,7 @@
   border: none;
   padding: $space-xl 0 $space-bigger 0;
   color: $color-pure-black;
+  border-radius: 0;
   @include background-color-flavors;
   .card-content {
     padding-right: 8rem;
