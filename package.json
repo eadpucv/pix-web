@@ -15,10 +15,12 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@popperjs/core": "^2.10.2",
     "gatsby": "^2.26.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-popper": "^2.2.5"
   },
   "devDependencies": {
     "@mdx-js/mdx": "^1.6.22",
